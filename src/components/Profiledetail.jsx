@@ -1,12 +1,12 @@
 import React from 'react'
-import profileimage from '../asset/image/profile__img.svg'
+import profileimage from '../asset/image/newjibola.jpg'
 import redirect from '../asset/image/_Avatar share button.svg'
 const Profiledetail = () => {
   return (
     <div className="profile_detail">
-      <img src={redirect} alt="" />
+      <img className="redirect" src={redirect} alt="" />
 
-      <img src={profileimage} alt="" />
+      <img src={profileimage} className="profile-image" alt="" />
       <p className="mt-2">Janet Jackson</p>
     </div>
   );

@@ -6,7 +6,17 @@ body {
     .profile_detail {
       margin-top: 3rem;
       text-align: center;
-
+      position: relative;
+      .profile-image{
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+      }
+      .redirect{
+        position: absolute;
+        right:20rem;
+        top: -1rem;
+      }
       p {
         /* Text xl/Bold */
         font-family: "Inter";
@@ -51,4 +61,14 @@ body {
     margin-top: 1rem;
     margin-bottom: 1rem;
   }
+
+  
 }
+
+@media (max-width: 992px) { 
+     .redirect{
+        position: absolute;
+        right:1rem !important;
+
+      }
+ }
