@@ -1,11 +1,54 @@
-body{
-      height: 100vh;
-    overflow: hidden;
-  .wrapper{
+body {
+  height: 100vh;
+  // overflow: hidden;
+  .wrapper {
     background-size: cover;
-    .profile_detail{
+    .profile_detail {
       margin-top: 3rem;
       text-align: center;
+
+      p {
+        /* Text xl/Bold */
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+
+        /* Gray/900 */
+        color: #101828;
+      }
     }
+
+    .profilelink {
+      button {
+        /* Gray/200 */
+        background: #eaecf0;
+        font-family: "Inter";
+        /* Gray/200 */
+        border: 1px solid #eaecf0;
+        color: #101828;
+        box-shadow: none !important;
+        outline: none;
+        border-radius: 8px;
+
+        &:focus {
+          outline: none;
+          box-shadow: none;
+        }
+      }
+    }
+  }
+}
+
+.footeritem {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+@media (max-width: 768px) {
+  .footeritem {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
   }
 }
