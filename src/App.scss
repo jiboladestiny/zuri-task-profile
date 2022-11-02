@@ -7,14 +7,14 @@ body {
       margin-top: 3rem;
       text-align: center;
       position: relative;
-      .profile-img{
-        width: 120px;
-        height: 120px;
+      .profile-img {
+        width: 100px;
+        height: 100px;
         border-radius: 50%;
       }
-      .redirect{
+      .redirect {
         position: absolute;
-        right:20rem;
+        right: 20rem;
         top: -1rem;
       }
       p {
@@ -32,17 +32,22 @@ body {
     .profilelink {
       button {
         /* Gray/200 */
-        padding-top:0.8rem ;
-        padding-bottom: 0.8rem;
+        padding-top: 0.9rem;
+        padding-bottom: 0.9rem;
         background: #eaecf0;
         font-family: "Inter";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
         /* Gray/200 */
         border: 1px solid #eaecf0;
         color: #101828;
         box-shadow: none !important;
         outline: none;
         border-radius: 8px;
-
+        &:hover {
+          background-color: rgb(0, 0, 0,0.15);
+        }
         &:focus {
           outline: none;
           box-shadow: none;
@@ -63,20 +68,16 @@ body {
     margin-top: 1rem;
     margin-bottom: 1rem;
   }
-
-  
 }
 
-@media (max-width: 992px) { 
-     .redirect{
-        position: absolute;
-        right:1rem !important;
+@media (max-width: 992px) {
+  .redirect {
+    position: absolute;
+    right: 1rem !important;
+  }
+}
 
-      }
- }
-
-
- .footer{
+.footer {
   padding-bottom: 1rem;
   padding-top: 1rem;
- }
+}
