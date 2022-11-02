@@ -6,8 +6,13 @@ const Profiledetail = () => {
     <div className="profile_detail">
       <img className="redirect" src={redirect} alt="" />
 
-      <img src={profileimage} className="profile-image" alt="" />
-      <p className="mt-2">Janet Jackson</p>
+      <img src={profileimage} className="profile-img" alt="" />
+      <p className="mt-2" id="twitter">
+        Dhestiny144
+      </p>
+      {/* <p className="mt-2" id="slack">
+        Ige Ajibola
+      </p> */}
     </div>
   );
 }

@@ -6,57 +6,63 @@ const Profilelink = () => {
       <div class="d-grid gap-3">
         <button
           onClick={() => {
-            window.location.href = "https://droomsoccer.com/";
+            window.location.href = "https://twitter.com/Dhestiny144";
           }}
           class="btn btn-lg btn-primary"
           type="button"
         >
-          Button
+          Twitter Link
         </button>
         <button
           onClick={() => {
-            window.location.href = "https://droomsoccer.com/";
+            window.location.href = "https://training.zuri.team";
           }}
           class="btn btn-lg btn-primary"
           type="button"
+          id="btn_zuri"
         >
-          Button
+          Zuri Team
         </button>
         <button
           onClick={() => {
-            window.location.href = "https://droomsoccer.com/";
+            window.location.href = "https://books.zuri.team/";
           }}
           class="btn btn-lg btn-primary"
+          id="books"
           type="button"
         >
-          Button
+          Zuri Books
         </button>{" "}
         <button
           onClick={() => {
-            window.location.href = "https://droomsoccer.com/";
+            window.location.href =
+              "https://books.zuri.team/pythonforbeginners?ref_id=ige ajibola";
           }}
           class="btn btn-lg btn-primary"
+          id="book_python"
           type="button"
         >
-          Button
+          Python Books
         </button>{" "}
         <button
           onClick={() => {
-            window.location.href = "https://droomsoccer.com/";
+            window.location.href = "https://background.zuri.team/";
           }}
           class="btn btn-lg btn-primary"
+          id="pitch"
           type="button"
         >
-          Button
+          Background Check for Coders
         </button>{" "}
         <button
           onClick={() => {
-            window.location.href = "https://droomsoccer.com/";
+            window.location.href = "https://books.zuri.team/design-rules";
           }}
           class="btn btn-lg btn-primary"
+          id="book_design"
           type="button"
         >
-          Button
+          Design Books
         </button>
       </div>
     </div>

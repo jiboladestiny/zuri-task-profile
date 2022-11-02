@@ -7,7 +7,7 @@ body {
       margin-top: 3rem;
       text-align: center;
       position: relative;
-      .profile-image{
+      .profile-img{
         width: 120px;
         height: 120px;
         border-radius: 50%;
@@ -32,6 +32,8 @@ body {
     .profilelink {
       button {
         /* Gray/200 */
+        padding-top:0.8rem ;
+        padding-bottom: 0.8rem;
         background: #eaecf0;
         font-family: "Inter";
         /* Gray/200 */
@@ -71,4 +73,10 @@ body {
         right:1rem !important;
 
       }
+ }
+
+
+ .footer{
+  padding-bottom: 1rem;
+  padding-top: 1rem;
  }
